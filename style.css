@@ -1,0 +1,120 @@
+.about_me,
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.about_me,
+h3 {
+  color: floralwhite;
+}
+
+#about_me {
+  padding-top: 100px;
+}
+body {
+  background: url(./images/background2.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 50px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn_holiday_counter {
+  cursor: pointer;
+}
+
+.navbar img {
+  max-width: 60px;
+  max-height: 45px;
+  border-radius: 25px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+.navbar,
+li a {
+  color: rgb(232, 248, 8);
+  padding: 10px 8px;
+  margin: 5px 10px 0 0;
+  list-style: none;
+}
+
+a {
+  color: rgb(232, 248, 8);
+  float: right;
+  padding: 10px 8px;
+  margin: 5px 10px 0 0;
+  list-style: none;
+}
+
+a:hover {
+  background-color: rgb(124, 113, 11);
+}
+
+.box {
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  max-width: fit-content;
+  margin-left: 510px;
+  margin-bottom: 100px;
+  padding: 10px;
+  background-color: rgba(49, 43, 43, 0.5);
+}
+
+#projects_devider {
+  color: floralwhite;
+  background-color: darkslategrey;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.holiday_counter,
+.password_generator {
+  float: left;
+  color: floralwhite;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  max-width: fit-content;
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+  padding: 10px;
+  background-color: rgba(49, 43, 43, 0.5);
+}
+
+.holiday_counter,
+img {
+  border-radius: 30px;
+}
+
+.password_generator,
+img {
+  border-radius: 30px;
+}
+
+#btn_password_generator,
+#btn_holiday_counter {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 5px;
+  font-size: large;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+}
+
+footer,
+p {
+  background-color: blue;
+  color: floralwhite;
+  font-size: large;
+  text-align: center;
+}
