@@ -28,6 +28,7 @@ body {
 
 .btn_holiday_counter {
   cursor: pointer;
+  background-color: aliceblue;
 }
 
 .navbar img {
